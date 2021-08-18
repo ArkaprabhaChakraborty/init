@@ -1,6 +1,8 @@
 [Network]
 DHCP=yes
 KeepConfiguration=dhcp-on-stop
+IPv6AcceptRA=true
+
 
 [Match]
 Name=*
